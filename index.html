@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width,initial-scale=1" name="viewport" />
+        <meta content="#101820" name="theme-color" />
+        <title>TempConvert — Free Online Unit Converter</title>
+        <meta
+            content="Convert temperature, length, weight, volume, area, speed, time, digital storage, pressure, energy, power and fuel economy instantly."
+            name="description"
+        />
+        <meta content="index,follow" name="robots" />
+        <link href="https://YOUR-DOMAIN.example/" rel="canonical" />
+        <meta content="TempConvert — Free Online Unit Converter" property="og:title" />
+        <meta
+            content="Convert temperature, distance, mass, volume, speed, digital storage and more with a free online unit converter."
+            property="og:description"
+        />
+        <meta content="website" property="og:type" />
+        <link href="assets/favicon.svg" rel="icon" />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="glow g1"></div>
+        <div class="glow g2"></div>
+        <header>
+            <a class="logo" href="./">
+                <i> ▥ </i>
+                temp
+                <span> convert </span>
+            </a>
+            <nav>
+                <a href="#converter"> Converter </a>
+                <a href="#popular"> Popular </a>
+                <a href="guides.html"> Guides </a>
+                <a href="faq.html"> FAQ </a>
+                <a href="about.html"> About </a>
+            </nav>
+            <button aria-label="Toggle theme" class="ghost" id="theme">☼</button>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="eyebrow">✦ THE EVERYDAY CONVERSION TOOL</div>
+                <h1>
+                    Make every unit
+                    <br />
+                    <em> make sense. </em>
+                </h1>
+                <p>
+                    Convert the measurements you use every day — instantly, accurately, and for
+                    free.
+                </p>
+                <small> FAST  ·  FREE  ·  NO SIGN-UP NEEDED </small>
+            </section>
+            <section class="app" id="converter">
+                <div class="appbar">
+                    <span> ● QUICK CONVERTER </span>
+                    <button id="reset">Reset ↺</button>
+                </div>
+                <div class="layout">
+                    <aside>
+                        <label> CATEGORIES </label>
+                        <div id="categories"></div>
+                    </aside>
+                    <div class="work">
+                        <div class="heading">
+                            <div>
+                                <small> CONVERT BETWEEN UNITS </small>
+                                <h2 id="title">Temperature</h2>
+                            </div>
+                            <button class="ghost" id="favorite">☆ Save</button>
+                        </div>
+                        <div class="convert">
+                            <div class="unit">
+                                <label> FROM </label>
+                                <div class="number">
+                                    <input id="value" step="any" type="number" value="25" />
+                                    <b id="symA"> °C </b>
+                                </div>
+                                <select id="unitA"></select>
+                                <small> Enter a value to convert </small>
+                            </div>
+                            <button aria-label="Swap units" class="swap" id="swap">⇄</button>
+                            <div class="unit result">
+                                <label> TO </label>
+                                <div class="number">
+                                    <input id="result" readonly="" value="77" />
+                                    <b id="symB"> °F </b>
+                                </div>
+                                <select id="unitB"></select>
+                                <small> ✓ Converted instantly </small>
+                            </div>
+                        </div>
+                        <div class="tools">
+                            <strong id="equation"> 25 °C = 77 °F </strong>
+                            <div>
+                                <button id="copy">▢ Copy result</button>
+                                <button id="share">↗ Share</button>
+                            </div>
+                        </div>
+                        <p id="error" role="status"></p>
+                    </div>
+                </div>
+                <div class="appfoot">
+                    <span> ◈ Your values stay in your browser </span>
+                    <span> Built for clarity ✦ </span>
+                </div>
+            </section>
+            <section class="popular" id="popular">
+                <div class="sectionhead">
+                    <div>
+                        <small> START WITH THE ESSENTIALS </small>
+                        <h2>Popular conversions</h2>
+                    </div>
+                    <p>Quick access to the conversions people reach for most.</p>
+                </div>
+                <div class="cards">
+                    <button data-a="c" data-b="f" data-cat="temperature">
+                        <i> ° </i>
+                        <small> Temperature </small>
+                        <b> °C → °F </b>
+                        <span> Celsius to Fahrenheit </span>
+                    </button>
+                    <button data-a="km" data-b="mi" data-cat="length">
+                        <i> ↔ </i>
+                        <small> Length </small>
+                        <b> km → mi </b>
+                        <span> Kilometers to miles </span>
+                    </button>
+                    <button data-a="kg" data-b="lb" data-cat="weight">
+                        <i> ⌁ </i>
+                        <small> Weight </small>
+                        <b> kg → lb </b>
+                        <span> Kilograms to pounds </span>
+                    </button>
+                    <button data-a="l" data-b="gal" data-cat="volume">
+                        <i> ◒ </i>
+                        <small> Volume </small>
+                        <b> L → gal </b>
+                        <span> Liters to US gallons </span>
+                    </button>
+                </div>
+            </section>
+            <section class="features" id="about">
+                <div>
+                    <i> ✳ </i>
+                    <b> Instant results </b>
+                    <p>Conversions update as you type. No waiting, no extra steps.</p>
+                </div>
+                <div>
+                    <i> ⌘ </i>
+                    <b> Made to feel simple </b>
+                    <p>Clear controls and thoughtful details keep things effortless.</p>
+                </div>
+                <div>
+                    <i> ◈ </i>
+                    <b> Private by design </b>
+                    <p>Your numbers are processed right here on your device.</p>
+                </div>
+            </section>
+            <section class="closing">
+                <small> A FEW THINGS WORTH KNOWING </small>
+                <h2>One place. Many measurements.</h2>
+                <p>
+                    From everyday temperature checks to data storage and pressure readings,
+                    TempConvert brings useful unit conversions together in one calm, focused space.
+                </p>
+                <div class="tags">
+                    Temperature · Length · Weight · Volume · Area · Speed · Time · Digital storage ·
+                    Pressure · Energy · Power · Fuel economy
+                </div>
+            </section>
+            <section class="popular">
+                <div class="sectionhead">
+                    <div>
+                        <small> LEARN THE BASICS </small>
+                        <h2>Explore conversion guides</h2>
+                    </div>
+                    <p>Understand formulas, unit differences, and common details.</p>
+                </div>
+                <div class="cards">
+                    <a class="link-card" href="guide-temperature.html">
+                        <b> Temperature </b>
+                        <span> Celsius, Fahrenheit &amp; Kelvin </span>
+                    </a>
+                    <a class="link-card" href="guide-length.html">
+                        <b> Length </b>
+                        <span> Metric and customary distance units </span>
+                    </a>
+                    <a class="link-card" href="guide-weight.html">
+                        <b> Weight &amp; mass </b>
+                        <span> Kilograms, pounds and ounces </span>
+                    </a>
+                    <a class="link-card" href="guides.html">
+                        <b> All 12 guides </b>
+                        <span> Browse every conversion category </span>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <a class="logo" href="./">
+                ▥ temp
+                <span> convert </span>
+            </a>
+            <p>Useful conversions. Less mental math.</p>
+            <div>
+                <a href="guides.html"> Guides </a>
+                <a href="faq.html"> FAQ </a>
+                <a href="about.html"> About </a>
+                <a href="privacy.html"> Privacy </a>
+                <a href="contact.html"> Contact </a>
+            </div>
+            <small>
+                ©
+                <span id="year"> </span>
+                TempConvert
+            </small>
+        </footer>
+        <div id="toast"></div>
+        <script src="app.js"></script>
+    </body>
+</html>
