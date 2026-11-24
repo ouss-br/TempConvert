@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOUR-DOMAIN.example/about.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/contact.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/cookies.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/faq.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-area.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-data.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-energy.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-fuel.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-length.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-power.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-pressure.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-speed.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-temperature.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-time.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-volume.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guide-weight.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guides.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/how-to-use.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/index.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/privacy.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/terms.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/</loc></url>
+  <url><loc>https://tempconvert.pages.dev/about.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/contact.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/cookies.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/faq.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-area.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-data.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-energy.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-fuel.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-length.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-power.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-pressure.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-speed.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-temperature.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-time.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-volume.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guide-weight.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/guides.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/how-to-use.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/privacy.html</loc></url>
+  <url><loc>https://tempconvert.pages.dev/terms.html</loc></url>
 </urlset>
+
